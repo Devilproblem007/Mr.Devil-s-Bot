@@ -18,7 +18,7 @@ return response.text
 
 st.title("Mr.Devil's Ai Assistant")
 
-command = st.chat_input("how can I help you?")
+command = st.chat_input("what is your need form m")
 
 if "message" not in st.session_state:
     st.session_state.message = []
