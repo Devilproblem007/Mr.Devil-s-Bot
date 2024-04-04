@@ -53,4 +53,3 @@ if command:
 
 
 
-print(st.session_state.message)
