@@ -38,7 +38,7 @@ if command:
             st.session_state.message.append({"role":"BOT","message":"Hi How are you?"})
     elif "who" in command:
         with st.chat_message("BOT"):
-            st.write("Im gamkers AI Assistant")
+            st.write("Im Mr.Devil's AI Assistant")
             st.session_state.message.append({"role":"BOT","message":"Im Mr.Devil's AI Assistant"})
     elif "oii" in command:
         with st.chat_message("BOT"):
